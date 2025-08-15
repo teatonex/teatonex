@@ -139,9 +139,9 @@ async function updateReadme() {
 
   const readmeContent = `# Hi there! 👋
 
-## 📊 GitHub Statistics
+##  GITHUB STATISTICS
 
-### 📈 Overview
+### OVERVIEW
 \`\`\`
 🔭 Repositories         ${stats.totalRepos}
 ⭐ Stars Received       ${stats.totalStars}  
@@ -150,17 +150,17 @@ async function updateReadme() {
 📦 Repository Size     ${(stats.totalSize / 1024).toFixed(1)} MB
 \`\`\`
 
-### 💻 Most Used Languages
+### MOST USED LANGUAGES
 
 \`\`\`
 ${languageBar}
 \`\`\`
 
-### 🚀 Recent Activity
+### RECENT ACTIVITY
 
 ${recentActivity}
 
-### 🎯 Quick Stats
+### Quick Stats
 ![Repositories](https://img.shields.io/badge/Repositories-${stats.totalRepos}-blue?style=flat-square)
 ![Stars](https://img.shields.io/badge/Stars-${stats.totalStars}-yellow?style=flat-square)
 ![Followers](https://img.shields.io/badge/Followers-${stats.followers}-green?style=flat-square)
@@ -169,8 +169,9 @@ ${recentActivity}
 
 <div align="center">
   <sub>
-    🤖 This README updates automatically every day<br/>
-    📅 Last updated: ${lastUpdated} UTC
+    This README updates automatically every day<br/>
+    ⚡ Generated in ${executionTime}s using ${requestsUsed} API requests<br/>
+    Last updated: ${lastUpdated} UTC
   </sub>
 </div>
 `;
