@@ -170,7 +170,6 @@ ${recentActivity}
 <div align="center">
   <sub>
     🤖 This README updates automatically every day<br/>
-    ⚡ Generated in ${executionTime}s using ${requestsUsed} API requests<br/>
     📅 Last updated: ${lastUpdated} UTC
   </sub>
 </div>
