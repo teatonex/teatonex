@@ -177,7 +177,7 @@ ${recentActivity}
 `;
 
   fs.writeFileSync('README.md', readmeContent);
-  console.log(`✅ README.md updated successfully! Used ${requestsUsed} API requests in ${executionTime}s`);
+  console.log(`README.md updated successfully! Used ${requestsUsed} API requests in ${executionTime}s`);
 }
 
 updateReadme();
