@@ -24,6 +24,9 @@ jobs:
       run: |
         npm init -y
         npm install @octokit/rest
+        npm init -y
+        npm install @octokit/rest
+        echo '{"type": "module"}' > package.json
         
     - name: Update README with stats
       run: node update-stats.js
