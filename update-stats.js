@@ -137,7 +137,7 @@ async function updateReadme() {
     `- 🔨 [${repo.name}](${repo.html_url}) - ${repo.description || 'No description'} (${repo.language || 'No language'})`
   ).join('\n');
 
-  const readmeContent = `# Hi there! 👋
+  const readmeContent = `# TEATONEX
 
 ##  GITHUB STATISTICS
 
